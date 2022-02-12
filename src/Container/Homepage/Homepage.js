@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import NavBar from "../../Component/Navbar/Navbar";
 import AddPost from "../../Component/AddPost/AddPost";
 import Post from "../../Component/Post/Post";
+import Footer from "../../Component/Footer/Footer";
 import "./HomePage.css";
 import db from "../../Firebase";
 import { collection, getDocs } from "firebase/firestore";
@@ -50,6 +51,7 @@ function Homepage() {
   }
 
   return (
+    <>
     <div>
       <NavBar userid={username} password={pass} />
       <div className="companyHome">
@@ -80,7 +82,12 @@ function Homepage() {
           <AddPost company={companyData} />
         </div>
       </div>
+      
     </div>
+    
+      {/* <Footer/> */}
+  
+    </>
   );
 }
 

@@ -3,6 +3,7 @@ import "./Profile.css";
 import NavBar from "../../Component/Navbar/Navbar";
 import ProfileCard from "../../Component/ProfileCard/ProfileCard";
 import Post from "../../Component/Post/Post";
+import TPcard from "../../Component/TPcard/TPcard";
 import db from "../../Firebase";
 import { collection, getDocs } from "firebase/firestore";
 
@@ -61,13 +62,12 @@ function Profile() {
       <NavBar userid={username} password={pass} />
       <div className="profileHome">
 
-
         <div className="leftSideProfile" style={who == "company" ? { display: "flex" } : { display: "none" }}>
           <div className="postSec">Your Post</div>
+          {postFinal.length==0 ? `You haven't post anything yet!`:''}
           {postFinal.map((item, i) => {
             return (
               <Post
-
                 key={i}
                 jd={item.jd}
                 time={item.timestamp}
@@ -77,6 +77,11 @@ function Profile() {
             );
           })}
         </div>
+
+        {/* <div className="leftSideProfile" style={who == "cell" ? { display: "flex" } : { display: "none" }}>
+         <TPcard/>
+          
+        </div> */}
 
         <div className="rightSideprofile">
           <ProfileCard />

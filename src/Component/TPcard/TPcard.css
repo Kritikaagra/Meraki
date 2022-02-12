@@ -1,0 +1,16 @@
+.Thead{
+    font-size: 1.5rem;
+}
+#Tinfo{
+    height: 10vh;
+    width: 35vw;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+.TfinalInfo{
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px 1px rgb(50 50 93 / 25%), 0 1px 3px -1px rgb(0 0 0 / 30%);
+}

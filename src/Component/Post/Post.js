@@ -20,19 +20,24 @@ function Post({jd, companyName, time, apply, id, cell}) {
       const current = new Date();
       const date = `${current.getDate()}/${current.getMonth() + 1}/${current.getFullYear()} @${current.getHours()}:${current.getMinutes()}:${current.getSeconds()}`;
 
+      var collename= e.target.previousSibling.previousSibling.childNodes[1].childNodes[0].innerText;
       const applyData={
         cell: cell[0].Name,
         jobId: e.target.previousSibling.previousSibling.childNodes[1].childNodes[2].innerText,
         date: date,
       };
-      var collename= e.target.previousSibling.previousSibling.childNodes[1].childNodes[0].innerText;
+      const TData={
+        cell: collename,
+        jobId: e.target.previousSibling.previousSibling.childNodes[1].childNodes[2].innerText,
+        date: date,
+      };
       var timestamp = String(new Date().getTime());
       await setDoc(doc(db, collename , timestamp), applyData);
+      await setDoc(doc(db, cell[0].Name , timestamp), TData);
       alert("Congratulations! Your information has been saved successfully.");
 
       e.target.disabled = false;
       e.target.innerText='Applied';
-
    }
   return (
     <>

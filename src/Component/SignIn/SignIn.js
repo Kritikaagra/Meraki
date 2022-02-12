@@ -57,7 +57,7 @@ function SignIn() {
             />
           </div>
           <div className="field">
-            <span className="payform-label">Campany/T&P Cell</span>
+            <span className="payform-label">Campany/T&P Cell *</span>
             <br />
             <select id="reg_s1" className="payform-input">
               <option selected hidden value="">

@@ -1,0 +1,8 @@
+.footer{
+    height: 40px;
+    bottom: 0px;
+    background-color: rgb(118, 143, 221);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}

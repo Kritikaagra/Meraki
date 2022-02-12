@@ -5,6 +5,7 @@ import SignIn from './Component/SignIn/SignIn';
 import Homepage from './Container/Homepage/Homepage';
 import JobSection from './Container/JobSection/JobSection';
 import Profile from './Container/Profile/Profile';
+import ProfileName from './Container/ProfileName/ProfileName'
 
 function App() {
   document.title = "MERAKI";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/homepage" exact component={()=><Homepage/>}/>
         <Route path="/jobSection" exact component={()=><JobSection/>}/>
         <Route path="/profile" exact component={()=><Profile/>}/>
+        <Route path="/profileName" exact component={()=><ProfileName/>}/>
           
         </Switch>
       </BrowserRouter>
