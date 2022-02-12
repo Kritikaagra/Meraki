@@ -1,0 +1,15 @@
+.profileBox{
+    margin: 2rem 2rem;
+}
+.rowflex{
+    display: flex;
+}
+.Phead{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.info{
+    margin-left: 2rem;
+    font-size: 1.25rem;
+}

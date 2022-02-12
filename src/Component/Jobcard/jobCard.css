@@ -1,0 +1,23 @@
+.Jbox{
+    box-shadow: 0 2px 5px 1px rgb(50 50 93 / 25%), 0 1px 3px -1px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem 0 1rem 0;
+}
+.Jheader{
+    display: flex;
+}
+.person{
+    font-size:4rem;
+    color: rgb(74, 100, 180);
+}
+.Jheaderflex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+.Jname{
+    font-weight: bold;
+    font-size: 1.2rem;
+}

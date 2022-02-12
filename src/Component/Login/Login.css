@@ -20,8 +20,6 @@
             background-color: blueviolet;
             height:100vh;
             width: 100%;
-            /* height:max-content;
-            width: max-content; */
             display: flex;
             flex-wrap: wrap;
             justify-content: center ;
@@ -68,15 +66,8 @@
         {
             position: relative;
             height: 35px;
-            width: 300px;
+            width: 250px;
             border-radius: 20px;
-           
-
-            /* position: relative; */
-            /* height: 50px;
-            width: 120px; */
-            /* border-radius: 6px;
-            margin-right: 100px; */
             background-color: rgb(11, 150, 11);
             font-size: 15px;
             letter-spacing: 1.2px;
@@ -103,24 +94,29 @@
         {
             background-image:url("https://img.icons8.com/ios-glyphs/30/000000/new-post.png");
             background-position:15px;
-            font-family: 'Montserrat', 'sans-serif'; padding-left: 50px;
+            font-family:'Times New Roman', Times, serif;
+            padding-left: 50px;
             background-repeat: no-repeat;
             background-size: 20px;
             width: 250px;
-            /* color: grey; */
             z-index: 1;
-          /* padding-left:25px; */
+            color: black;
+            font-weight: 500;
+            font-size: 1.2rem;
         }
         input#loginpass
         {
             background-image: url("https://img.icons8.com/ios-glyphs/30/000000/lock--v1.png");
             background-position:15px;
             background-repeat: no-repeat;
-            font-family: 'Montserrat', 'sans-serif'; padding-left: 50px;
+            font-family:'Times New Roman', Times, serif;
+             padding-left: 50px;
             background-size: 20px;
             width: 250px;
             z-index: 1;
-          /* padding-left:25px; */
+            color: black;
+            font-weight: 500;
+            font-size: 1.2rem;
         }
         .con
         {
@@ -130,6 +126,7 @@
             background-color: lightgrey;
             border:none;
             outline: none;
+            color: black;
         }
         a{
             color: black;
@@ -213,15 +210,11 @@
             height: 35px;
             width: px;
             border-radius: 20px;
-           
-
-           
             background-color: rgb(11, 150, 11);
             font-size: 15px;
             letter-spacing: 1.2px;
             color:rgb(247, 246, 248);
             position: relative;
-            /* left: px; */
             font-weight: bold;
             border:none;
             outline: none;
