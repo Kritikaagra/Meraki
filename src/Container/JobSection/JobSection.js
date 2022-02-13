@@ -55,7 +55,7 @@ function JobSection() {
       userid={username}
       password={pass} />
 
-      <div className="Jhead">{who == 'cell'? 'See where your apply' : 'See how many T&P cell applied for you job'}</div>
+      <div className="Jhead">{who == 'cell'? 'See where your apply' : 'See how many T&P cell applied for your job'}</div>
       <div className="Jdiv">
       {
         (final.length == 0 && who == 'cell') ? `You havent apply anywhere yet!` : ''
