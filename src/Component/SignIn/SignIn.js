@@ -57,14 +57,14 @@ function SignIn() {
             />
           </div>
           <div className="field">
-            <span className="payform-label">Campany/T&P Cell *</span>
+            <span className="payform-label">Company/T&P Cell *</span>
             <br />
             <select id="reg_s1" className="payform-input">
               <option selected hidden value="">
                 --Select any one--
               </option>
               <option name="submit blog" value="campany">
-                Campany
+                Company
               </option>
               <option name="sponsership" value="cell">
                 T&P Cell
