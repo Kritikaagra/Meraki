@@ -17,3 +17,14 @@
     background-color: rgb(248, 245, 245);
     font-size: 1.2rem;
 }
+@media only screen and (max-width:680px){
+    .Jdiv{
+        width: 100%;
+    }
+    .linkCard{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

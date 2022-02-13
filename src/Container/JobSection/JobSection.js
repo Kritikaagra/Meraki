@@ -66,9 +66,8 @@ function JobSection() {
       {   
         final.map((item,i)=>{
           return(
-            <Link to={'/profilename?username='+ item.cell}>
+            <Link to={'/profilename?username='+ item.cell} key={i} className='linkCard'>
             <JobCard
-              key={i}
               name={item.cell}
               time={item.date}
               id={item.jobId}

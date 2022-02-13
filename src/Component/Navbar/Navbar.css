@@ -88,7 +88,7 @@
         transition: 0.5s all;
     }
     .NavigationBar_Nav-nav-links.active{
-        background: #000;
+        background: rgb(118, 143, 221);
         left: 0;
         z-index: 5;
         top: 50px;

@@ -1,15 +1,10 @@
-
 import React from 'react';
 import {AiFillNotification} from 'react-icons/ai';
 import './Post.css';
 import db from "../../Firebase";
 import {
-  collection,
-  getDocs,
-  timestamp,
   doc,
   setDoc,
-  serverTimestamp,
 } from "firebase/firestore";
 
 function Post({jd, companyName, time, apply, id, cell}) {

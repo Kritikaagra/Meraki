@@ -36,6 +36,12 @@
     background-color: rgb(58, 148, 58);
     border-radius: 30px;
     border: none;
-    width: 30%;
+    width:fit-content;
     
+}
+@media only screen and (max-width:900px){
+    .postDiv{
+        padding: 10px 10px;
+        margin: 0.5rem 0.5rem;
+    }
 }

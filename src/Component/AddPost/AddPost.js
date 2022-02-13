@@ -55,7 +55,7 @@ var timestamp;
           name="post"
           id="newPost"
           cols="30"
-          rows="15"
+          rows="10"
           placeholder="Write your job description here..."
           className="posttext"
         ></textarea>

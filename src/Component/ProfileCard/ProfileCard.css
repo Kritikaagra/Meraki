@@ -12,4 +12,14 @@
 .info{
     margin-left: 2rem;
     font-size: 1.25rem;
+    word-break: break-all;
+}
+@media only screen and (max-width:1100px){
+    .profileBox{
+        margin: 1rem 1rem;
+    }
+    .info{
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
 }

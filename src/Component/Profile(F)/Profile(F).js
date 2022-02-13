@@ -21,7 +21,6 @@ function ProfileF({user}) {
             }
         })
         setInfo(so);
-        console.log(info);
     }
 
     if (tester == true) {

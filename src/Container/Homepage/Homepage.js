@@ -57,6 +57,7 @@ function Homepage() {
       <div className="companyHome">
         <div className="leftSide">
           <div className="postSec">Post Section</div>
+          <div className="scroll">
           {postData.map((post, i) => {
             return (
               <Post
@@ -70,6 +71,7 @@ function Homepage() {
               />
             );
           })}
+          </div> 
         </div>
         <div
           className="rightSide"

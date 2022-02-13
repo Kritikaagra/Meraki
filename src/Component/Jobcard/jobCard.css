@@ -21,3 +21,13 @@
     font-weight: bold;
     font-size: 1.2rem;
 }
+@media only screen and (max-width:416px){
+    .Jbox{
+        width: 90%;
+        padding: 0.5rem 0.5rem;
+    }
+    .Jheaderflex{
+        font-size: small;
+        margin-left: 0.5rem;
+    }
+}
