@@ -73,14 +73,14 @@ function checkCredentials(e){
             <div id="loginmain">
               <div id="logincompo1"> <h2 id="h2comp1">Login For MERAKI</h2> </div>
               <br/>
-              <div id="logincompo2"> <input type="text" id="loginadmin" className="con"  placeholder= "Admin" 
+              <div id="logincompo2"> <input type="text" id="loginadmin" className="con"  placeholder= "Phone No" 
                onChange={(e)=>
              {
                setuserid(e.target.value)
              }}
 
             /></div>
-              <div id="logincompo3"> <input type="password" id="loginpass" className="con" placeholder="Password"
+              <div id="logincompo3"> <input type="password" id="loginpass" className="con" placeholder="Password(Email)"
                 onChange={(e)=>
              {
                 setpassword(e.target.value)
